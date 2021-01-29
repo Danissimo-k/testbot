@@ -12,7 +12,4 @@ def get_text_messages(message):
     else:
         bot.send_message(message.from_user.id, 'Что ты несешь.')
 
-
-if __name__ == "__main__":
-    bot = telebot.TeleBot('1634119418:AAHzc2yueiOxf-MxxzAfLp4t4A5AFBLvwNg')
     bot.polling(none_stop=True)
